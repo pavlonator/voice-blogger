@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Blogger</string>
+    <string name="create_a_new_post">create a new post</string>
+    <string name="authenticate_me">authenticate me</string>
+    <string name="nod_my_head">scroll the list</string>
+    <string name="say_a_post_title">say a post title</string>
+    <string name="say_picture">say "picture" to take a picture and add to the post</string>
+    <string name="say_comment">say "comment" to record a textual comment and add to the post</string>
+    <string name="say_submit">say "submit" to submit your post</string>
+</resources>

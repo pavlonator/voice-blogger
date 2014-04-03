@@ -60,11 +60,11 @@ limitations under the License.
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Glassware Starter Project</title>
-  <link href="./static/bootstrap/css/bootstrap.min.css" rel="stylesheet"
+  <link href="static/bootstrap/css/bootstrap.min.css" rel="stylesheet"
         media="screen">
-  <link href="./static/bootstrap/css/bootstrap-responsive.min.css"
+  <link href="static/bootstrap/css/bootstrap-responsive.min.css"
         rel="stylesheet" media="screen">
-  <link href="./static/main.css" rel="stylesheet" media="screen">
+  <link href="static/main.css" rel="stylesheet" media="screen">
 </head>
 <body>
 <div class="navbar navbar-inverse navbar-fixed-top">
@@ -215,7 +215,7 @@ limitations under the License.
       <form action="<%= WebUtil.buildUrl(request, "/voice-blogger/main") %>" method="post">
         <input type="hidden" name="operation" value="insertContact">
         <input type="hidden" name="iconUrl" value="<%= appBaseUrl +
-               "./static/images/chipotle-tube-640x360.jpg" %>">
+               "static/images/chipotle-tube-640x360.jpg" %>">
         <input type="hidden" name="id"
                value="<%= MainServlet.CONTACT_ID %>">
         <input type="hidden" name="name"
@@ -328,6 +328,6 @@ limitations under the License.
 
 <script
     src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-<script src="./static/bootstrap/js/bootstrap.min.js"></script>
+<script src="static/bootstrap/js/bootstrap.min.js"></script>
 </body>
 </html>
